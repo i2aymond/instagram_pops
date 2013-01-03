@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  username: chanelwestcoast
+  caption: Wassup I am rich
+  comments_count: 386
+  likes_count: 16461
+  link: http://instagr.am/p/TE9MpbNIE0/
+  low_resolution_url: http://distilleryimage4.s3.amazonaws.com/3744fe92433011e283e822000a1f8e5b_6.jpg
+  standard_resolution_url: http://distilleryimage4.s3.amazonaws.com/3744fe92433011e283e822000a1f8e5b_7.jpg
+
+two:
+  username: amylovesweets
+  caption: If I behaved I might go to Arkansas
+  comments_count: 36
+  likes_count: 1738
+  link: http://instagr.am/p/TFIkCpROGD/
+  low_resolution_url: http://distilleryimage7.s3.amazonaws.com/16fc3890433e11e28dc722000a1fbcbc_6.jpg
+  standard_resolution_url: http://distilleryimage7.s3.amazonaws.com/16fc3890433e11e28dc722000a1fbcbc_7.jpg

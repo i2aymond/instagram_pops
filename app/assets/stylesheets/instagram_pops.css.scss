@@ -1,0 +1,167 @@
+// Place all the styles related to the instagram_pops controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-color: #333;
+  margin: 0;
+}
+
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+a {
+  color: #000;
+  &:visited {
+    color: #666;
+  }
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
+}
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px;
+  }
+}
+
+#notice {
+  color: green;
+}
+
+.picture_cell {
+    display: inline-block;
+    padding: 5px;
+    background-color: #575757;
+    width: 215px;
+    height: 250px;
+    margin: 13px 0 0 13px;
+    color: #ccc;
+    font: 12px arial;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow:    inset 0 0 3px #aaa;
+    -webkit-box-shadow: inset 0 0 3px #aaa;
+    box-shadow:         inset 0 0 3px #aaa;
+    .picture_container {
+        display:none;
+        position: relative;
+        img {
+            width: 215px;
+        }
+        .picture_comment {
+            position: absolute;
+            display: none;
+            bottom: 3px;
+            padding: 10px 5px;
+            width: 205px;
+            background-color: #000;
+            color: #fff;
+            opacity:0.6;
+        }
+    }
+    .picture_footer {
+        margin-top:5px;
+        .picture_username {
+            display: inline-block;
+            width: 70px;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        .picture_counts {
+            float: right;
+            padding-left: 37px;
+            height: 30px;
+        }
+        .picture_likes {
+            background: url('/assets/photo-page-assets.png') no-repeat -0px -8px;
+        }
+        .picture_comments {
+            margin-right: 10px;
+            background: url('/assets/photo-page-assets.png') no-repeat -0px -109px;
+        }
+    }
+}
+
+.top_header {
+    background: #00ced1 url( '/assets/header_background.png' ) top left repeat-x;
+    height: 70px;
+}
+
+.top_left_logo {
+    display: inline-block;
+    background: url( '/assets/shared-assets.png' ) no-repeat 0 10px;
+    width: 100px;
+    height: 40px;
+    margin: 10px 0 -15px 15px;
+    text-indent: -9999em;
+}
+
+.center_content {
+    background: #333 url( '/assets/content_background.png' ) top left repeat-x;
+}
+
+.button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 8px/100% Arial, Helvetica, sans-serif;
+    padding: 1em 2.5em .8em;
+    text-shadow: 0 2px 2px rgba(0,0,0,.3);
+    -webkit-border-radius: 1.5em; 
+    -moz-border-radius: 1.5em;
+    border-radius: 1.5em;
+    background-color: #444;
+    margin-right: 5px;
+    color: #fff;
+    opacity: 0.6;
+    margin-top: 20px;
+}
+.button:hover {
+    text-decoration: none;
+}
+.button:active {
+    position: relative;
+    top: 1px;
+}
+.button_active {
+    opacity: 1;
+}
+
+#popular {
+    margin-left: 20px;
+}
+
+#search {
+    background: url('/assets/search.png') no-repeat 8px 3px #00ced1;
+    border: 0 none;
+    margin-left: 10px;
+    font: normal 9px Arial,Helvetica,Sans-serif;
+    color: #eee;
+    width: 120px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    opacity: 0.8;
+}
+
+.loading {
+    display: inline-block;
+    float: right;
+    margin: 15px;
+    img {
+        display: none;
+    }
+}

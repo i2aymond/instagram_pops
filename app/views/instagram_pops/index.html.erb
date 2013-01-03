@@ -1,0 +1,31 @@
+<h1>Listing instagram_pops</h1>
+
+<table>
+  <tr>
+    <th>Username</th>
+    <th>Caption</th>
+    <th>Comments count</th>
+    <th>Likes count</th>
+    <th>Link</th>
+    <th>Low resolution url</th>
+    <th>Standard resolution url</th>
+    <th></th>
+  </tr>
+
+<% @instagram_pops.each do |instagram_pop| %>
+  <tr>
+    <td><%= instagram_pop.username %></td>
+    <td><%= instagram_pop.caption %></td>
+    <td><%= instagram_pop.comments_count %></td>
+    <td><%= instagram_pop.likes_count %></td>
+    <td><%= instagram_pop.link %></td>
+    <td><%= instagram_pop.low_resolution_url %></td>
+    <td><%= instagram_pop.standard_resolution_url %></td>
+    <td><%= link_to 'Show', instagram_pop %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Instagram pop', new_instagram_pop_path %>

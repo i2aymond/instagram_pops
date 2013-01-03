@@ -1,4 +1,7 @@
 InstagramPops::Application.routes.draw do
+  match 'instagram_pops/showcase' => 'instagram_pops#showcase'
+  resources :instagram_pops
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -49,6 +52,7 @@ InstagramPops::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
   # root :to => 'welcome#index'
+  root :to => 'instagram_pops#showcase'
 
   # See how all your routes lay out with "rake routes"
 
