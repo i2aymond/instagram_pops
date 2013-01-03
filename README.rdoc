@@ -9,6 +9,7 @@ The project uses the following:
 * Backbone for frontend architecture
 * Mastache for the template for each picture and its info (username, comments, likes, etc)
 * Konacha for javascript testing
+* CoffeeScript for most of the javascripts
 * Postgres for database (so that it can be uploaded to Heroku)
 
 == Getting Started
