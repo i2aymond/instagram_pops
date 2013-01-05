@@ -12,6 +12,8 @@ The project uses the following:
 * CoffeeScript for most of the javascripts
 * Postgres for database (so that it can be uploaded to Heroku)
 
+To simply see what it looks like, please go to: http://still-thicket-2941.herokuapp.com
+
 == Getting Started
 
 1. Get all of the source and install gems:
