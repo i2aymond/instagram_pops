@@ -4,7 +4,7 @@ Instagram Pops is a little interview project I did, it essentially uses the Inst
 
 The project uses the following:
 
-* Rails 3.2.9 (Ruby 1.9.2)
+* Rails 3.2.11 (Ruby 1.9.2)
 * All javascripts and css goes into assets pipeline
 * Backbone for frontend architecture
 * Mastache for the template for each picture and its info (username, comments, likes, etc)
